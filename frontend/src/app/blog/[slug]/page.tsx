@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
+  console.log('params in the blogpostpage component are', params)
   // fetch this from an API based on the slug
   const post = {
     id: "1",
